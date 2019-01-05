@@ -1,1 +1,129 @@
+<!DOCTYPE html>
+<head>
+<title>My Tribute Page
+</title>
+</head>
+<body>
+<style>
+body{
+	background-color:purple;
+	font-size:15px;
+	font-family:arial ;
+	text-align:center;
+}
+#main{
+margin: 10px 20px;
+padding: 10px 20px;
+background-color:silver;
+}
 
+#img {
+
+max-width: 100%;
+
+}
+
+#img-div{
+	margin:10px 0px 0px -205px;
+padding:10px 0px 0px 250px;
+}
+
+#img-caption{
+	margin:0px 0px 16px 0px;
+	font-family: Georgia;
+	font-size: 17px;
+	color:black;
+}
+
+#tribute-info{
+	 margin:-140px;
+	 
+	text-align:center;
+}
+
+#headline
+font-family:arial;
+text-align: left;
+}
+
+ul{ 
+padding:auto;	
+	font-family: times new roman;	
+}
+
+li{ 
+margin: 14px;
+text-align:center;	}
+
+	blockquote{
+		margin-bottom: 25px;
+		font-family:sans-serif; 
+		font-size:18px; 
+	color:rgba(30,63,23,0.8);
+	}
+</style>
+
+<div id="main" >
+	<strong><h1 id="title" ><u>Albert Einstein</u></h1></strong>
+	<div><em><h3>
+	ALBERT EINSTEIN IS ONE OF THE
+MOST FAMOUS, ICONIC, INFLUENTIAL AND UNIVERSALLY
+ADMIRED PERSONS IN HUMAN HISTORY.</h3></em></div>
+<div id="img-div">
+	<img id="image" src="b.jpg"> 
+		<div id="img-caption">
+		
+	<br> <em> Einstein and Tagore Berlin 14 July, 1930
+		    </br></em>
+	</div>
+	</div
+	<div id="tribute-info">
+		
+		<h2 id="headline">	<br>Here's a Tribute Info About Albert Einstein's life: </h2>
+		
+	<ul><li style="padding-left:10px;">1879
+	<br>Born in Germany ,Ulm.</li>
+	<li>Aged 12
+	<br>Einstein picked up a book on geometry and read it cover to cover. </li>
+	<li>Aged 15
+	<br>The family moved to Milan, Italy.</li>
+	<li>1896 
+	<br>Einstein renounced his German citizenship to avoid military conscription.</li>
+	<li>1900
+	 <br>Became a Swiss citizen and published his first scientific paper.
+	</li>
+	<li>1903
+		<br> Married Mileva Maric and had two sons before divorcing several years later.
+	</li>
+	<li>
+	1905 <br>Had completed his PhD entitled "A New Determination of Molecular Dimensions".</li>
+	<li>
+		1909<br>
+		 He was given a post at the University of Zurich.</li>
+<li>
+	1911<br>Offered the post of full-professor at the Charles-Ferdinand University in Prague.
+</li>
+<li>1914
+	<br> Returned to Germany,appointed director of the Kaiser Wilhelm Institute for Physics(1914-1932).
+	</li>
+<li>1916
+	<br>General Theory of Relativity.
+</li>
+<li>1921
+<br>Awarded the Nobel Prize in Physics.</li>
+<li>
+	1951 <br>Offered the position as President of Israel, but declined.
+</li> 
+<li>1955
+	<br> Died at the age of 76.
+</li>
+<blockquote>
+	<em>"School failed me, and I failed the school. It bored me. The teachers behaved like Feldwebel (sergeants). I wanted to learn what I wanted to know, but they wanted me to learn for the exam."
+	<div>--Albert Einstein</em></div>
+</blockquote>
+<h2><em>To read more about Albert Einstein <a id="tribute-link" href="https://en.wikipedia.org/wiki/Albert_Einstein" target="_blank"> Click Here!</a></h2></em>
+</div>
+</div>
+</body>
+
+</html>
